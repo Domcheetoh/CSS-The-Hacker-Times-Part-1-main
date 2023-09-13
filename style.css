@@ -35,27 +35,25 @@ li{
     padding-right: 4px;
 }
 
-nav{
+nav {
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     padding-top: 0px;
     padding-bottom: 0px;
     font-family: Source Sans Pro;
-    
+    position: sticky;
+    top: 0px;
+    background: white;
 }
 
-/* A link that has not been visited */
 a:link {
     color: #777;
     text-decoration: none;
 }
-/* A link that has been visited */
-a:visited {
-    color: blue;
-}
+
 /* A link that is hovered on */
 a:hover {
-    color: red; 
+    color: red;
 }
 
 h5{
